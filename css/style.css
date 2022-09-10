@@ -1149,6 +1149,7 @@ ul {
 }
 .dlf-icos{
     margin-top: 15px;
+    white-space: nowrap;
 }
 .dlf-icos span{
     color: #ffffff;
@@ -3018,6 +3019,8 @@ a.whatsapp_float .fa {
     height: auto;
     margin: 0 5px 0 0;
 }
+
+
 .project-info-item-txt h3 {
     width: auto;
     display: inline-block;
