@@ -31,7 +31,7 @@ body::-webkit-scrollbar {
 
 
     body::-webkit-scrollbar-thumb {
-        background-color: #90EE90 ;
+        background-color: #0e406e ;
     }
 h1, h2, h3, h4, h5, h6 {
 	/*font-family: 'Lato', sans-serif;*/
@@ -76,7 +76,8 @@ body, html {
 }
 
 .cta-section-1 {
-    background: url("../images/dlf-the-grove/schedule-appointment-bg.jpg");
+    /* schedule-appointment-bg.jpg */
+    background: url("../images/dlf-the-grove/deta.jpeg");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -123,7 +124,7 @@ body, html {
     }
 
 .cta-section {
-    background: #90ee90 ;
+    background: url(../images/dots.png);
     position: relative;
 }
   /* ==========exchannge here======= */
@@ -131,8 +132,8 @@ body, html {
     content: "";
     position: absolute;
     /* background: rgb(154  185  200 / 90%); */
-    background: url(../images/dots.png);
-  
+   
+    background: #0e406e;
     height: 100%;
     width: 100%;
     top: 0;
@@ -322,7 +323,7 @@ ul {
 	text-align: center;
 	transition: all 0.3s ease 0s;
 	width: 40px;
-	background: #90ee90;
+	background: #0e406e;
 }
 #scrollUp i {
 	display: block;
@@ -361,7 +362,7 @@ ul {
 ================================================
 */
 .menu-bg {
-	background: #90ee90;
+	background: #0e406e;
 	box-shadow: 0 1px 7px 0 rgba(0, 0, 0, 0.2);
 	z-index: 999;
 }
@@ -447,7 +448,7 @@ ul {
     display: none;
 }
 .owl-carousel .owl-item img{
-    filter: drop-shadow(1px 1px 1px #90ee90);
+    filter: drop-shadow(0px 0px 0px #0e406e);
 }
 .property-box-2 {
     margin-bottom: 30px;
@@ -732,6 +733,7 @@ ul {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
+    background-image: url('../images/dlf-the-grove/deta.jpeg') !important;
 }
 .ltn__video-popup-area{
 	padding: 0;
@@ -761,6 +763,7 @@ ul {
 }
 .bg-overlay-black-30:before {
     background: rgba(0, 0, 0, 0.8);
+   
 }
 .bg-overlay-black-30:before{
     position: absolute;
@@ -1038,7 +1041,7 @@ ul {
 */
 
 .call-to-action { 
-	background: #90ee90
+	background: #0e406e
     none repeat scroll 0 0;
 	float: left;
 	padding: 60px 0;
@@ -1050,7 +1053,7 @@ ul {
 ================================================
 */
 .call-to-action {
-	background: #90ee90
+	background: #0e406e
     ;
 	float: left;
 	padding: 60px 0;
@@ -1315,7 +1318,7 @@ footer p {
   resize:none;
 }
 .sidebar-contact input[type="submit"]{
-  background:#90ee90;
+  background:#0e406e;
   color:#fff;
   cursor:pointer;
   border:none;
@@ -1327,7 +1330,7 @@ footer p {
     width: 160px;
     text-align: center;
     cursor: pointer;
-    background: #90ee90;
+    background: #0e406e;
     transform: rotate(270deg);
     left: -100px;
     top: 60px;
@@ -1412,7 +1415,7 @@ footer p {
     -webkit-transform: translate(50%, -50%);
     transform: translate(50%, -50%);
     border-radius: 1000px;
-    background: #90ee90;
+    background: #0e406e;
     font-family: Arial, Sans-Serif;
     font-size: 20px;
     text-align: center;
@@ -1442,10 +1445,16 @@ footer p {
     bottom: -5%;
     left: -60px;
     width: 60%;
+   
+}
+
+.left-container .pou{
+    height: 83vh;
+   object-fit: cover;
 }
 .fild h2{
 	    padding: 0;
-    color: #90ee90;
+    color: #0e406e;
     font-size: 22px;
     margin-bottom: 10px;
     font-weight: 700;
@@ -1944,7 +1953,7 @@ bottom: 0;
 	 white-space: nowrap;
 	 padding: 0.65rem 1.50rem;
 	 border-radius: 3rem;
-	 color: #90ee90;
+	 color: #0e406e;
 	 background-color: #ffffff;
 	 box-shadow:  0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
 	 transition: all 0.3s ease-in-out;
@@ -1952,7 +1961,7 @@ bottom: 0;
 }
 .menu-block1:hover{
 	color: #ffffff;
-	background: #90ee90;
+	background: #0e406e;
 }
 
  .menu-block2 {
@@ -1988,7 +1997,7 @@ bottom: 0;
 	 padding: 0.65rem 1.50rem;
 	 border-radius: 3rem;
 	 color: #ffffff;
-	 background-color: #90ee90;
+	 background-color: #0e406e;
 	 box-shadow:  0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
 	 transition: all 0.3s ease-in-out;
 	 border: none;
@@ -2115,7 +2124,7 @@ bottom: 0;
     height: 100vh;
     position: relative;
     z-index: 1;
-    background: url('../images/dlf-the-grove/banner2.jpg');
+    background: url('../images/dlf-the-grove/deta.jpeg');
     background-size: cover;
     display: flex;
     align-items: end;
@@ -2156,7 +2165,7 @@ bottom: 0;
     text-align: center;
 }
 .configuration-item h5 {
-   color: #90ee90;
+   color: #0e406e;
     font-size: 20px;
     text-transform: uppercase;
         display: flex;
@@ -2169,8 +2178,8 @@ bottom: 0;
 .configuration-item img{
 	width: 30px;
 	margin-right: 10px;
-    filter: hue-rotate(290deg);
-    /* filter: contrast(#90ee90); */
+    filter: drop-shadow(1px 1px 1px #0e406e);
+    
 }
 .configuration-item p {
     font-size: 16px;
@@ -2352,7 +2361,7 @@ bottom: 0;
 	position: absolute;
     left: 0;
     top: 15px;
-    color: #90ee90;
+    color: #0e406e;
 	}
 
 
@@ -2397,7 +2406,7 @@ bottom: 0;
   text-transform: none;
 }
 .avaible-size .price_inner .rc_one.price {
-  color: #90ee90;
+  color: #0e406e;
 }
 .avaible-size .price_inner .rc_one.price span {
   font-size: 1.5rem;
@@ -2436,7 +2445,7 @@ bottom: 0;
 	position: absolute;
     left: 0;
     top: 15px;
-    color: #90ee90;
+    color: #0e406e;
 	}
 
 
